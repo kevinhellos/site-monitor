@@ -6,7 +6,7 @@ puppeteer.use(StealthPlugin());
 
 const siteLink = "https://fanciful-profiterole-94abb7.netlify.app/";
 const webhookUrl = "";
-let checkDelay = 0;
+let checkDelay = 0; // How often to refresh the site and check for changes
 
 let previousHTML = "";
 
